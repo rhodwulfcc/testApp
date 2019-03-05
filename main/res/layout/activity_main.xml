@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rodolfo.testapp.MainActivity">
+
+
+    <Button
+        android:id="@+id/imagenGaleriaButton"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:layout_height="wrap_content"
+        android:text="Imagen de Galeria" />
+
+    <Button
+        android:id="@+id/datosWifiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="32dp"
+        android:text="Redes Wifi" />
+
+    <Button
+        android:id="@+id/wifiActualButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="32dp"
+        android:text="Wifi Actual" />
+
+    <Button
+        android:id="@+id/pdfButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="32dp"
+        android:text="Crear pdf" />
+
+    <Button
+        android:id="@+id/puntosButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="32dp"
+        android:text="Dibujar Puntos" />
+</LinearLayout>
